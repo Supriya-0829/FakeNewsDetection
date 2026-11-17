@@ -97,6 +97,11 @@ Joblib Persistence (models/fake_news_pipeline.joblib)
 
 ```
 Fake_News_Detection/
+├── docs/
+│   ├── PROJECT_REPORT.docx            # 50-Page Academic & Engineering Project Report (Word)
+│   ├── PROJECT_REPORT.md              # Full 50-Page Project Report (Markdown)
+│   ├── PRESENTATION_20_SLIDES.pptx    # 20-Slide Widescreen Presentation Deck (PowerPoint)
+│   └── PRESENTATION_SLIDES.md         # 20-Slide Presentation Deck & Speaker Notes
 ├── dataset/
 │   ├── Fake.csv                       # Kaggle fake news articles (23,481 records)
 │   └── True.csv                       # Kaggle true news articles (21,417 records)
