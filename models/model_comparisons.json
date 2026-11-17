@@ -1,0 +1,26 @@
+{
+  "Logistic Regression (Primary)": {
+    "accuracy": 0.9862,
+    "precision": 0.9827,
+    "recall": 0.992,
+    "f1_score": 0.9873
+  },
+  "Multinomial Naive Bayes": {
+    "accuracy": 0.9581,
+    "precision": 0.9682,
+    "recall": 0.954,
+    "f1_score": 0.961
+  },
+  "Passive Aggressive Classifier": {
+    "accuracy": 0.9917,
+    "precision": 0.9904,
+    "recall": 0.9943,
+    "f1_score": 0.9923
+  },
+  "Linear Support Vector Machine": {
+    "accuracy": 0.9922,
+    "precision": 0.9925,
+    "recall": 0.9932,
+    "f1_score": 0.9928
+  }
+}

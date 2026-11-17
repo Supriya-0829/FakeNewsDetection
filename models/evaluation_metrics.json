@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.9862,
+  "precision": 0.9827,
+  "recall": 0.992,
+  "f1_score": 0.9873,
+  "precision_macro": 0.9866,
+  "recall_macro": 0.9857,
+  "f1_macro": 0.9861,
+  "confusion_matrix": {
+    "matrix": [
+      [
+        3506,
+        74
+      ],
+      [
+        34,
+        4205
+      ]
+    ],
+    "true_negatives": 3506,
+    "false_positives": 74,
+    "false_negatives": 34,
+    "true_positives": 4205,
+    "labels": [
+      "FAKE",
+      "REAL"
+    ]
+  },
+  "classification_report": {
+    "FAKE": {
+      "precision": 0.9903954802259887,
+      "recall": 0.9793296089385475,
+      "f1-score": 0.9848314606741573,
+      "support": 3580.0
+    },
+    "REAL": {
+      "precision": 0.9827062397756485,
+      "recall": 0.9919792403868837,
+      "f1-score": 0.9873209673632308,
+      "support": 4239.0
+    },
+    "accuracy": 0.9861874920066505,
+    "macro avg": {
+      "precision": 0.9865508600008186,
+      "recall": 0.9856544246627156,
+      "f1-score": 0.986076214018694,
+      "support": 7819.0
+    },
+    "weighted avg": {
+      "precision": 0.9862268281900516,
+      "recall": 0.9861874920066505,
+      "f1-score": 0.9861811241675685,
+      "support": 7819.0
+    }
+  },
+  "sample_count": 7819,
+  "dataset_metadata": {
+    "raw_count": 44898,
+    "empty_removed": 9,
+    "duplicates_removed": 5795,
+    "final_count": 39094,
+    "fake_count": 17900,
+    "real_count": 21194,
+    "fake_ratio": 0.4579,
+    "real_ratio": 0.5421,
+    "random_state": 42
+  },
+  "train_samples": 31275,
+  "test_samples": 7819,
+  "model_comparisons": {
+    "Logistic Regression (Primary)": {
+      "accuracy": 0.9862,
+      "precision": 0.9827,
+      "recall": 0.992,
+      "f1_score": 0.9873
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9581,
+      "precision": 0.9682,
+      "recall": 0.954,
+      "f1_score": 0.961
+    },
+    "Passive Aggressive Classifier": {
+      "accuracy": 0.9917,
+      "precision": 0.9904,
+      "recall": 0.9943,
+      "f1_score": 0.9923
+    },
+    "Linear Support Vector Machine": {
+      "accuracy": 0.9922,
+      "precision": 0.9925,
+      "recall": 0.9932,
+      "f1_score": 0.9928
+    }
+  }
+}
